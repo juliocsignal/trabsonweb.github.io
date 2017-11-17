@@ -1,0 +1,54 @@
+.container{
+  position: relative; /*Posicao configurada como relativa*/
+  margin-left: 50%; /*Margem na metade da tela*/
+  margin-top: 150px; /*Topo da div a 150px do topo da pagina*/
+
+}
+
+h1 { /*Configuracoes de titulo h1*/
+  font-size: 30px; /*Fonte*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*Tipo de fonte*/
+  text-align: center; /*Alinhamento*/
+
+}
+
+Form {
+
+  height: 330px;
+  width:  267.7px;
+  border-radius: 18px;
+
+
+}
+
+
+
+input, label{
+  margin: 0 auto;
+
+  display: block; /*Display configurado como block*/ 
+  padding: 10px; /*Padding de todos*/
+  padding-right: 100px; /*Padding da esquerda*/
+  margin: 10px; /*Margem de todos*/
+  margin-left: 0px; /*Margem da esquerda*/
+  border-radius: 10px; /*Raio da borda*/
+
+}
+
+input[type=checkbox]{
+  display: inline-block; /*Configurando a checkbox como 'inline-block'*/
+
+
+
+}
+
+input[type=submit]{
+  background-color: blue; /*Cor do botao*/
+    color:white; /*Cor da letra*/
+
+}
+
+
+body{
+  background-color: #eee; /*Cor do fundo*/
+}
