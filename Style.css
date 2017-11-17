@@ -1,6 +1,7 @@
 .container{
   position: relative; /*Posicao configurada como relativa*/
   margin-left: 50%; /*Margem na metade da tela*/
+  margin-right: 50%;
   margin-top: 150px; /*Topo da div a 150px do topo da pagina*/
 
 }
@@ -26,7 +27,7 @@ Form {
 input, label{
   margin: 0 auto;
 
-  display: block; /*Display configurado como block*/ 
+  display: block; /*Display configurado como block*/
   padding: 10px; /*Padding de todos*/
   padding-right: 100px; /*Padding da esquerda*/
   margin: 10px; /*Margem de todos*/

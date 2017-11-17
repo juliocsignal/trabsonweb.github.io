@@ -3,20 +3,27 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="Style.css">
-    <title>Tela de Login</title>
+    <title>Tela de Cadastro</title>
   </head>
   <body>
     <div id="container" class="container"> <!--Criacao da Divisao 'container'-->
 
       <form class="Form" action="index.html" method="post"> <!--Criacao do formulario-->
-          <h1>Por favor, entre! :)</h1>
+          <h1>Por favor, cadastre-se! :)</h1>
           <input type="text" name="text" placeholder="Email"> <!--Campo de email-->
 
+          <input type="text" name="text" placeholder="Confirme seu email"> <!--Campo de email-->
+
+
           <input type="text" name="text" placeholder="Senha"> <!--Campo de senha-->
+          <input type="text" name="text" placeholder="Confirme sua senha"> <!--Campo de senha-->
+
           <label>
-          <input type="checkbox" class="a" name="remember" value=""> Mantenha-me conectado xD <!--Opcao para continuar conectado sempre-->
+          <input type="checkbox" class="a" name="remember" value=""> Lembrar senha <!--Opcao para continuar conectado sempre-->
+          <input type="checkbox" class="a" name="remember" value=""> Contribuir para atualizações futuras <!--Opcao para continuar conectado sempre-->
+
           </label>
-          <input type="submit" name="submit" value="Entrar" > <!--Botao de entrar-->
+          <input type="submit" name="submit" value="Entrar" id="botao"> <!--Botao de entrar-->
       </form>
     </div>
   </body>
